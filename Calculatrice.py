@@ -21,6 +21,8 @@ elif operation == "*":
     resultat = float(nombre1) * float(nombre2)
 elif operation == "/":
     resultat = float(nombre1) / float(nombre2)
+elif operation == "modulo":
+    resultat = float(nombre1) % float(nombre2)
 else:
     msgerror = True
 
