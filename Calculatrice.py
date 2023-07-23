@@ -1,5 +1,3 @@
-print("Hello World")
-
 #Definition des constantes&variables
 contact = "contact-calculatricePython@gmail.com"
 icontinue = True
