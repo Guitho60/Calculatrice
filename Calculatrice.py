@@ -1,6 +1,8 @@
-#Saisie de l'opération par l'utilisateur
+#Definition des constantes&variables
+contact = "contact-calculatricePython@gmail.com"
 msgerror = False
 
+#Saisie de l'opération par l'utilisateur
 chaine = input("Veuillez saisir une opération de la forme a + b : ")
 print(chaine)
 
@@ -26,3 +28,5 @@ if not msgerror :
     print(f"Résultat = {resultat}")
 else:
     print("Erreur la chaine saisie ne correspond pas à une opération.")
+
+print(f"Merci d'avoir utilisé notre calculatrice !! Adresse de contact : {contact}")
